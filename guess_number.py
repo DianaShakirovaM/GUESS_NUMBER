@@ -12,7 +12,7 @@ while not_guessed:
     if computer_number == user_number:
         print('Great intuition! You guessed the number!')
         not_guessed = False
-    elif user_number > computer_number:
+    if user_number > computer_number:
         print('Your number is more than computer one. Try again!') 
     else:
         print('Yor number is less than computer one. Try again!')
